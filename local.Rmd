@@ -1,0 +1,331 @@
+---
+title: "INC"
+author: "Giovanni Moreno"
+date: "14-11-2024"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    theme: cerulean
+  pdf_document:
+    toc: true
+    toc_depth: 2
+---
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+
+        \includegraphics[width=0.3\textwidth]{logo_universidad.png}\\
+        \vspace{1cm}
+
+        \textbf{\Huge{INC}}\\
+        \vspace{0.5cm}
+        \textbf{\LARGE{UniSabana}}\\
+        \vspace{1.5cm}
+
+        \textbf{Autores:}\\
+        \textbf{Giovanni Esteban Moreno Urbina}\\
+        \vspace{0.5cm}
+
+        Universidad de La Sabana\\
+        \vspace{1.5cm}
+
+        \textbf{\Large{Fecha : 18 de marzo}}\\
+
+        \vfill
+    \end{center}
+\end{titlepage}
+
+\newpage
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(readr)
+library(ggplot2)
+library(kableExtra)
+library(plotly)
+library(viridis)
+library(scales)
+```
+
+## Introducción
+
+Este documento analiza la precisión del modelo de OpenAI en comparación con una base de datos clasificada manualmente. El objetivo es visualizar qué tan cercano es el accuracy del modelo y entender las áreas donde el modelo puede estar teniendo dificultades.
+
+## Carga y Preparación de Datos
+
+Primero, cargamos ambos conjuntos de datos:
+
+```{r cargar-datos}
+# Carga de datos
+data_manual <- read_delim("DataManual.csv", delim = ";", col_types = cols(.default = "c"))
+datos_openai <- read_delim("respuestaOpenAI.csv", delim = ";", col_types = cols(.default = "c"))
+
+# Visualizar las primeras filas
+head(data_manual) %>% 
+  kable() %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 11) %>%
+  scroll_box(width = "100%")
+
+head(datos_openai) %>% 
+  kable() %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), font_size = 11) %>%
+  scroll_box(width = "100%")
+```
+
+## Análisis de Precisión Global
+
+Calculamos la precisión general del modelo comparando los valores de BIRADS en ambos conjuntos de datos:
+
+```{r accuracy-global}
+# Función para limpiar y manejar valores vacíos o NA
+limpiar_valor <- function(x) {
+  if (is.na(x) || x == "" || x == "NULL") {
+    return(NA)
+  }
+  return(x)
+}
+
+# Crear un dataframe con las predicciones y los valores reales
+comparacion <- data.frame(
+  Manual = sapply(data_manual$BIRADS, limpiar_valor),
+  OpenAI = sapply(datos_openai$birads, limpiar_valor)
+)
+
+# Eliminar filas con valores NA
+comparacion <- comparacion %>% 
+  filter(!is.na(Manual) & !is.na(OpenAI))
+
+# Calcular el accuracy
+accuracy <- mean(comparacion$Manual == comparacion$OpenAI, na.rm = TRUE)
+
+# Mostrar el resultado
+accuracy_porcentaje <- round(accuracy * 100, 2)
+```
+
+La precisión global del modelo de OpenAI es de **`r accuracy_porcentaje`%**.
+
+## Visualización de Resultados
+
+### Matriz de Confusión
+
+Visualizamos la matriz de confusión para entender mejor los errores del modelo:
+
+```{r matriz-confusion}
+# Crear una matriz de confusión
+confusion_matrix <- table(Real = comparacion$Manual, Predicho = comparacion$OpenAI)
+
+# Convertir a dataframe para visualización
+confusion_df <- as.data.frame(as.table(confusion_matrix))
+
+# Crear un heatmap interactivo con plotly
+plot_ly(
+  data = confusion_df,
+  x = ~Predicho,
+  y = ~Real,
+  z = ~Freq,
+  type = "heatmap",
+  colorscale = "Blues",
+  showscale = TRUE
+) %>%
+  layout(
+    title = "Matriz de Confusión",
+    xaxis = list(title = "Valor Predicho (OpenAI)"),
+    yaxis = list(title = "Valor Real (Manual)"),
+    annotations = lapply(1:nrow(confusion_df), function(i) {
+      list(
+        x = confusion_df$Predicho[i],
+        y = confusion_df$Real[i],
+        text = confusion_df$Freq[i],
+        showarrow = FALSE,
+        font = list(color = ifelse(confusion_df$Freq[i] > max(confusion_df$Freq)/2, "white", "black"))
+      )
+    })
+  )
+```
+
+### Distribución de Clases
+
+Comparamos la distribución de clases entre ambos conjuntos de datos:
+
+```{r distribucion-clases}
+# Crear dataframes para la distribución
+distrib_manual <- data.frame(
+  Fuente = "Manual",
+  Clase = names(table(comparacion$Manual)),
+  Cantidad = as.vector(table(comparacion$Manual))
+)
+
+distrib_openai <- data.frame(
+  Fuente = "OpenAI",
+  Clase = names(table(comparacion$OpenAI)),
+  Cantidad = as.vector(table(comparacion$OpenAI))
+)
+
+# Combinar los dataframes
+distribucion_combinada <- rbind(distrib_manual, distrib_openai)
+
+# Calcular porcentajes
+distribucion_combinada <- distribucion_combinada %>%
+  group_by(Fuente) %>%
+  mutate(Porcentaje = Cantidad / sum(Cantidad) * 100)
+
+# Crear un gráfico de barras comparativo
+ggplot(distribucion_combinada, aes(x = Clase, y = Porcentaje, fill = Fuente)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_viridis_d(option = "D", begin = 0.3, end = 0.7) +
+  labs(
+    title = "Distribución de Clases BIRADS",
+    subtitle = "Comparación entre Datos Manuales y Predicciones de OpenAI",
+    x = "Clase BIRADS",
+    y = "Porcentaje (%)"
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 0),
+    plot.title = element_text(hjust = 0.5, face = "bold"),
+    plot.subtitle = element_text(hjust = 0.5)
+  ) +
+  scale_y_continuous(labels = scales::percent_format(scale = 1)) +
+  geom_text(aes(label = sprintf("%.1f%%", Porcentaje)), 
+            position = position_dodge(width = 0.9), 
+            vjust = -0.5, 
+            size = 3)
+```
+
+### Análisis de Precisión por Clase
+
+Calculamos la precisión para cada clase BIRADS:
+
+```{r precision-por-clase}
+# Calcular métricas por clase
+metricas_por_clase <- data.frame()
+
+for (clase in unique(comparacion$Manual)) {
+  # Filtrar por clase real
+  subset_clase <- comparacion[comparacion$Manual == clase, ]
+  
+  # Calcular métricas
+  verdaderos_positivos <- sum(subset_clase$OpenAI == clase)
+  total_clase <- nrow(subset_clase)
+  
+  # Calcular precision para esta clase
+  precision_clase <- verdaderos_positivos / total_clase
+  
+  # Añadir a dataframe
+  metricas_por_clase <- rbind(metricas_por_clase, data.frame(
+    Clase = clase,
+    Total = total_clase,
+    Correctos = verdaderos_positivos,
+    Precision = precision_clase
+  ))
+}
+
+# Ordenar por clase
+metricas_por_clase <- metricas_por_clase %>%
+  arrange(Clase)
+
+# Visualizar precisión por clase
+ggplot(metricas_por_clase, aes(x = Clase, y = Precision, fill = Precision)) +
+  geom_bar(stat = "identity") +
+  scale_fill_viridis_c(option = "D", direction = 1) +
+  geom_text(aes(label = sprintf("%.1f%%", Precision * 100)), 
+            vjust = -0.5, 
+            color = "black", 
+            size = 3.5) +
+  labs(
+    title = "Precisión del Modelo por Clase BIRADS",
+    x = "Clase BIRADS",
+    y = "Precisión"
+  ) +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5, face = "bold")) +
+  scale_y_continuous(labels = percent_format(), limits = c(0, 1))
+```
+
+### Análisis de Errores
+
+Veamos los casos donde el modelo tuvo más dificultades:
+
+```{r analisis-errores}
+# Identificar errores
+errores <- comparacion %>%
+  mutate(Es_Error = Manual != OpenAI) %>%
+  filter(Es_Error)
+
+# Agrupar errores por combinación de valores real-predicho
+errores_agrupados <- errores %>%
+  group_by(Manual, OpenAI) %>%
+  summarise(Cantidad = n(), .groups = 'drop') %>%
+  arrange(desc(Cantidad))
+
+# Mostrar tabla de errores más comunes
+errores_agrupados %>%
+  head(10) %>%
+  kable(col.names = c("Valor Real", "Valor Predicho", "Frecuencia"),
+        caption = "Top 10 de Errores Más Comunes") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+
+# Visualizar errores más comunes
+errores_agrupados %>%
+  head(10) %>%
+  ggplot(aes(x = reorder(paste(Manual, "→", OpenAI), Cantidad), y = Cantidad, fill = Cantidad)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  scale_fill_viridis_c(option = "D") +
+  labs(
+    title = "Errores Más Comunes del Modelo",
+    subtitle = "Top 10 de combinaciones incorrectas (Real → Predicho)",
+    x = "",
+    y = "Frecuencia"
+  ) +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5, face = "bold"),
+        plot.subtitle = element_text(hjust = 0.5)) +
+  geom_text(aes(label = Cantidad), hjust = -0.2)
+```
+
+## Conclusiones
+
+Este análisis nos permite entender el rendimiento del modelo de OpenAI en la clasificación de BIRADS. Los puntos principales son:
+
+1. **Accuracy global**: El modelo alcanza un `r accuracy_porcentaje`% de precisión general.
+
+2. **Distribución de clases**: Se observa que la distribución de clases predichas por OpenAI difiere ligeramente de la distribución real, lo que podría afectar el rendimiento del modelo.
+
+3. **Precisión por clase**: La clase con mejor rendimiento es la 2, mientras que otras clases muestran oportunidades de mejora.
+
+4. **Errores comunes**: Los errores más frecuentes se producen en [...], lo que sugiere que el modelo podría tener dificultades para distinguir entre estas categorías.
+
+5. **Recomendaciones**: Para mejorar el modelo, se podría considerar:
+   - Mejor balance de clases en los datos de entrenamiento
+   - Ajuste específico para las clases con menor rendimiento
+   - Revisión de los casos más problemáticos para identificar patrones
+
+```{r resumen-final, echo=FALSE}
+# Crear un gráfico de resumen final
+resumen <- data.frame(
+  Metrica = c("Accuracy Global", "Clases Correctamente Predichas", "Errores"),
+  Valor = c(accuracy_porcentaje, 
+            sum(comparacion$Manual == comparacion$OpenAI), 
+            sum(comparacion$Manual != comparacion$OpenAI))
+)
+
+ggplot(resumen, aes(x = Metrica, y = Valor, fill = Metrica)) +
+  geom_bar(stat = "identity") +
+  scale_fill_viridis_d(option = "D", begin = 0.3, end = 0.9) +
+  labs(
+    title = "Resumen de Rendimiento del Modelo OpenAI",
+    x = "",
+    y = "Valor"
+  ) +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5, face = "bold"),
+        legend.position = "none") +
+  geom_text(aes(label = ifelse(Metrica == "Accuracy Global", 
+                               paste0(Valor, "%"), 
+                               Valor)), 
+            vjust = -0.5)
+```
