@@ -9,6 +9,8 @@ Este repositorio contiene dos aplicaciones basadas en FastAPI para extraer infor
 
 Antes de ejecutar cualquiera de las aplicaciones, asegúrate de tener las siguientes dependencias instaladas:
 
+Python v12 o superior con las siguientes librerías:
+
 ```bash
 pip install fastapi uvicorn python-dotenv openai pandas pydantic requests
 ```
@@ -74,6 +76,21 @@ curl -X 'POST' \
 
 El resultado es un JSON con los datos extraídos.
 
+Ejemplo de uso con `uvicorn local:app --reload`
+
+- En la dirección **127.0.0.1:8000/docs** se encontrará la siguiente interfaz:
+![alt text](/images/uvicorn.png)
+
+- Se debe seleccior el endpoint POST de **/process-medical-csv/** y dar en la opción de **Try out**:
+![alt text](/images/endpoint.png)
+
+- Se de debe subir el archivo en csv con el formato solicitado y dar en execute:
+![alt text](/images/upload%20file.png)
+
+
+
+
+
 ## Contacto
 
-Si tienes preguntas o sugerencias, abre un issue en este repositorio. 🚀
+Si tienes preguntas o sugerencias, abre un issue en este repositorio.
