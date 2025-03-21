@@ -1,0 +1,600 @@
+﻿Nodulos;Morfologia de los nodulos;Margenes Nodulos;Densidad Nodulo;Presencia Microcalcificaciones;Calcificaciones tipicamente benignas;Calcififcaciones morfologia sospechosa;Distribucion de las calcificaciones;Presencia de asimetrias;Tipo de asimetria;Hallazgos asociados;LATERALIDAD HALLAZGO;BIRADS;ID_PACIENTE
+0. No; ; ; ;0. No ; ; ; ;0. No ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;1
+0. No; ; ; ;0. No ; ; ; ;0. No ; ; ;1. DERECHO ;2 ;2
+0. No; ; ; ;0. No ; ; ; ;0. No ; ; ;1. DERECHO ;2 ;2
+0. No; ; ; ;0. No ; ; ; ;0. No ; ; ;1. DERECHO ;2 ;2
+0. No; ; ; ;0. No ; ; ; ;0. No ; ; ;3. BILATERAL ;2 ;3
+0. No; ; ; ;0. No ; ; ; ;0. No ; ; ;3. BILATERAL ;2 ;3
+0. No; ; ; ;0. No ; ; ; ;0. No ; ; ;3. BILATERAL ;2 ;3
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ;1. Si ;4. Asimetria focal evolutiva ; ;1. DERECHO;4;4
+ ; ; ; ; ; ; ; ; ; ; ;1. DERECHO ; ;4
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ;3. Engrosamiento de la piel ;1. DERECHO;2 ;4
+0.No; ; ; ;1. Si ;5. Redondas o puntiformes; ; ;0. No ; ; ;3. BILATERAL ;2 ;5
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;1. DERECHO;2 ;6
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;1. DERECHO ;2 ;6
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;7
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ; ; ; ;2. IZQUIERDO ;2 ;8
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ; ; ; ;2. IZQUIERDO ;2 ;8
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ; ; ; ;3. BILATERAL ;2 ;8
+1.Si;1.Ovalado; ; ;0. No ; ; ; ; ; ; ;1. DERECHO ;2 ;9
+1.Si;1.Ovalado;1.Circunscritos; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;9
+1.Si;1.Ovalado; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;1. DERECHO ;2 ;9
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;10
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;10
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;10
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;10
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;10
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;11
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;11
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;11
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;11
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;11
+ ; ; ; ;1. Si ;2. Vasculares ; ; ;0. No ; ; ;1. DERECHO ;2 ;12
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;13
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;14
+1.Si;1.Ovalado;1.Circunscritos;3. Igual Densidad (isodenso) ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;15
+1.Si; ; ; ;1. Si ;2. Vasculares ; ; ;0. No ; ; ;1. DERECHO ;2 ;16
+1.Si;1.Ovalado;1.Circunscritos;3. Igual Densidad (isodenso) ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;16
+1.Si; ; ; ;1. Si ;2. Vasculares ; ; ;0. No ; ; ;1. DERECHO ;2 ;16
+1.Si; ; ; ;1. Si ;2. Vasculares ; ; ;0. No ; ; ;1. DERECHO ;2 ;16
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;3. BILATERAL ;2 ;17
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;18
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;18
+0. No; ; ; ;0. No ; ; ; ; ; ; ;1. DERECHO ;1 ;18
+ ; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;19
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ; ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;19
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ; ;3. BILATERAL ;2 ;19
+ ; ; ; ;1. Si ;2. Vasculares ; ; ;0. No ; ; ;1. DERECHO ;2 ;20
+0. No; ; ; ;1. Si ; ; ; ; ; ; ;1. DERECHO ;2 ;20
+0. No; ; ; ;0. No ; ; ; ;1. Si ; ; ;1. DERECHO ;2 ;21
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ; ;1. DERECHO ;2 ;21
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;1. Si ; ; ;3. BILATERAL ;2 ;21
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ; ;3. BILATERAL ;2 ;21
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ; ;3. BILATERAL ;2 ;21
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;2. IZQUIERDO ;2 ;22
+1.Si;2.Redondo; ;3. Igual Densidad (isodenso) ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;22
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;3. BILATERAL ;2 ;23
+0. No; ; ; ; ; ; ; ; ; ; ;3. BILATERAL ;2 ;23
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;3. BILATERAL ;2 ;23
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;23
+0. No; ; ; ; ; ; ; ; ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;23
+0. No; ; ; ; ; ; ; ; ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;23
+1.Si; ; ; ; ; ; ; ; ; ;3. Engrosamiento de la piel ;3. BILATERAL ;3 ;23
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;1. DERECHO ;2 ;24
+ ; ; ; ;1. Si ;2. Vasculares ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;25
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;25
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;2. IZQUIERDO ;2 ;25
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;3. BILATERAL ;2 ;26
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;3. BILATERAL ;2 ;27
+1.Si;1.Ovalado;2.Microlobulados;3. Igual Densidad (isodenso) ; ; ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;3 ;28
+1.Si; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;1. Si ; ; ;3. BILATERAL ;2 ;28
+1.Si;1.Ovalado; ;3. Igual Densidad (isodenso) ;0. No ; ; ; ; ; ; ;1. DERECHO ;2 ;29
+1.Si;1.Ovalado; ;2. Baja Densidad (hipodenso) ;0. No ; ; ; ; ; ; ;1. DERECHO ;2 ;29
+1.Si;1.Ovalado;1.Circunscritos;2. Baja Densidad (hipodenso) ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;29
+ ; ; ; ;1. Si ;2. Vasculares ; ; ;0. No ; ; ;1. DERECHO ;2 ;30
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;30
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;30
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;30
+ ; ; ; ;1. Si ;7. Distroficas ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;31
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;2. IZQUIERDO ;2 ;32
+ ; ; ; ;1. Si ;2. Vasculares ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;32
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;2. IZQUIERDO ;2 ;32
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;2. IZQUIERDO ;2 ;32
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;2. IZQUIERDO ;2 ;32
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;2. IZQUIERDO ;2 ;32
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;33
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;33
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;33
+1.Si;1.Ovalado;1.Circunscritos; ;1. Si ;2. Vasculares ; ; ;1. Si ; ; ;3. BILATERAL ;2 ;34
+1.Si;1.Ovalado; ;3. Igual Densidad (isodenso) ;1. Si ;7. Distroficas ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;34
+1.Si;1.Ovalado; ;3. Igual Densidad (isodenso) ; ; ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;34
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;3. BILATERAL ;2 ;35
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;3. BILATERAL ;2 ;35
+0. No; ; ; ;1. Si ;6. Anulares ; ; ; ; ; ;1. DERECHO ;2 ;36
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;36
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;36
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;36
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;36
+1.Si;1.Ovalado;2.Microlobulados;3. Igual Densidad (isodenso) ;1. Si ;6. Anulares ; ; ; ; ; ;1. DERECHO ;2 ;37
+1.Si;1.Ovalado;2.Microlobulados;3. Igual Densidad (isodenso) ; ; ; ; ; ; ; ;1. DERECHO ;2 ;37
+1.Si;1.Ovalado;1.Circunscritos;3. Igual Densidad (isodenso) ;1. Si ;6. Anulares ; ; ; ; ; ;1. DERECHO ;2 ;37
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;3. BILATERAL ;2 ;38
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;3. BILATERAL ;2 ;38
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;3. BILATERAL ;2 ;38
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;3. BILATERAL ;2 ;38
+0. No; ; ; ;0. No ; ; ; ; ; ; ;3. BILATERAL ;2 ;38
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;39
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;0 ;40
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;40
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;40
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;0. No ; ; ;3. BILATERAL ;2 ;40
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;41
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;41
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;41
+1.Si; ;4.Obscurecidos;3. Igual Densidad (isodenso) ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;3. BILATERAL ;0 ;42
+1.Si; ;4.Obscurecidos;3. Igual Densidad (isodenso) ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;3. BILATERAL ;2 ;42
+1.Si;1.Ovalado;4.Obscurecidos;3. Igual Densidad (isodenso) ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;3. BILATERAL ;2 ;42
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;3. BILATERAL ;2 ;42
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;3. BILATERAL ;2 ;43
+ ; ; ; ;1. Si ;2. Vasculares ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;44
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;45
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;1. DERECHO ;2 ;45
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;45
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;45
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;45
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;46
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;46
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;46
+0. No; ; ; ; ; ; ; ; ; ; ;2. IZQUIERDO ;2 ;46
+0. No; ; ; ;0. No ; ; ; ; ; ; ;3. BILATERAL ;1 ;47
+1.Si;3.Irregular;5.Espiculados;4. Alta Densidad (hiperdenso) ; ; ; ; ; ; ; ;3. BILATERAL ;6 ;48
+1.Si;1.Ovalado; ;3. Igual Densidad (isodenso) ;0. No ; ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;48
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;49
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;0 ;49
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;49
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;49
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;49
+1.Si;2.Redondo; ;2. Baja Densidad (hipodenso) ;0. No ; ; ; ;1. Si ; ; ;3. BILATERAL ;4;50
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;51
+ ; ; ; ;1. Si ;2. Vasculares ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;52
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ;1. Si ; ; ;3. BILATERAL ;2 ;52
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;3. BILATERAL ;2 ;53
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;3. BILATERAL ;2 ;54
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;3. BILATERAL ;2 ;54
+1.Si;1.Ovalado;2.Microlobulados;3. Igual Densidad (isodenso) ;1. Si ;2. Vasculares ; ; ; ; ; ;3. BILATERAL ;0 ;54
+1.Si;1.Ovalado;2.Microlobulados;3. Igual Densidad (isodenso) ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;3. BILATERAL ;2 ;54
+1.Si; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ; ;3. BILATERAL ;2 ;55
+1.Si;2.Redondo;1.Circunscritos;3. Igual Densidad (isodenso) ;1. Si ;7. Distroficas ; ; ;1. Si ; ; ;3. BILATERAL ;2 ;55
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;56
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;56
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;56
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;56
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;1 ;57
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;57
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;57
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;57
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;57
+ ; ; ; ;1. Si ;2. Vasculares ; ; ;0. No ; ; ;1. DERECHO ;2 ;58
+ ; ; ; ;1. Si ;2. Vasculares ; ; ;0. No ; ; ;1. DERECHO ;2 ;58
+1.Si;1.Ovalado; ;3. Igual Densidad (isodenso) ;1. Si ;6. Anulares ; ; ; ; ; ;1. DERECHO ;2 ;58
+1.Si;1.Ovalado;1.Circunscritos;3. Igual Densidad (isodenso) ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;58
+1.Si;1.Ovalado; ;3. Igual Densidad (isodenso) ;0. No ; ; ; ; ; ; ;1. DERECHO ;2 ;58
+ ; ; ; ;1. Si ;2. Vasculares ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;59
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;2. IZQUIERDO ;2 ;59
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;60
+0. No; ; ; ; ; ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;61
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;61
+0. No; ; ; ;0. No ; ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;61
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;61
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;61
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;3. BILATERAL ; ;61
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;62
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;62
+0. No; ; ; ;0. No ; ; ; ; ; ; ;1. DERECHO ;2 ;62
+1.Si; ;1.Circunscritos;3. Igual Densidad (isodenso) ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;62
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ; ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;63
+0. No; ; ; ;1. Si ; ;2. Amorfas ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;4B ;63
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;63
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;63
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;1. DERECHO ;2 ;64
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;64
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;65
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;4;66
+0.No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;66
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;66
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;66
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;66
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;66
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;66
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ; ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;67
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;67
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ;3. Asimetria focal ;3. Engrosamiento de la piel ;3. BILATERAL ;0 ;67
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ;1. Asimetria ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;67
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;1. Si ;1. Asimetria ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;67
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ; ; ; ;2. IZQUIERDO ;2 ;68
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ; ; ; ;2. IZQUIERDO ;2 ;68
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;68
+ ; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;69
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;69
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;69
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;2. IZQUIERDO ;2 ;69
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ; ; ; ;1. DERECHO ;2 ;70
+0.No  ;;;;0. No ;5. Redondas o puntiformes ;;4. Segmentaria ;;;;1. DERECHO ;2;71
+0.No  ;1. Ovalado ;1. Circunscritos ;2. Baja Densidad (hipodenso) ;0. No ;;;;1. Si ;1. Asimetria ;3. Engrosamiento de la piel ;1. DERECHO ;0;72
+0.No  ;;;;0. No ;5. Redondas o puntiformes ;;;1. Si ;1. Asimetria ;3. Engrosamiento de la piel ;1. DERECHO ;2;72
+0.No  ;;;;0. No ;;;;1. Si ;1. Asimetria ;3. Engrosamiento de la piel ;1. DERECHO ;2;72
+0.No  ;;;;0. No ;;;;1. Si ;1. Asimetria ;3. Engrosamiento de la piel ;1. DERECHO ;2;72
+0.No  ;;;;0. No ;5. Redondas o puntiformes ;;;1. Si ;1. Asimetria ;1. Retracción de la piel ;2. IZQUIERDO ;2;73
+0.No  ;;;;0. No ;5. Redondas o puntiformes ;;;1. Si ;1. Asimetria ;1. Retracción de la piel ;2. IZQUIERDO ;2;73
+0.No  ;;;;0. No ;;;;1. Si ;1. Asimetria ;1. Retracción de la piel ;2. IZQUIERDO ;2;73
+0.No  ;;;;0. No ;7. Distroficas ;;;1. Si ;1. Asimetria ;3. Engrosamiento de la piel ;2. IZQUIERDO ;2;73
+0.No  ;;;;0. No ;7. Distroficas ;;;1. Si ;1. Asimetria ;3. Engrosamiento de la piel ;2. IZQUIERDO ;2;73
+0.No  ;;;;0. No ;5. Redondas o puntiformes ;;;1. Si ;1. Asimetria ;3. Engrosamiento de la piel ;2. IZQUIERDO ;2;73
+0.No  ;;;;0. No ;5. Redondas o puntiformes ;;;;;;;2;74
+;;;;;5. Redondas o puntiformes ;;;1. Si ;1. Asimetria ;;1. DERECHO ;2;75
+0.No  ;;;;0. No ;6. Anulares ;;;1. Si ;1. Asimetria ;;1. DERECHO ;2;75
+;;;;;;;;;;;;;76
+1.Si ;;;;;5. Redondas o puntiformes ;;;0. No ;;;;2;76
+0.No  ;;;;0.No  ;;;;;;;;2;77
+0.No  ;;;;0.No  ;;;;1. Si ;1. Asimetria ;;1. DERECHO ;2;78
+1.Si ;1. Ovalado ;1. Circunscritos ;3. Igual Densidad (isodenso) ;0.No  ;;;;1. Si ;1. Asimetria ;3. Engrosamiento de la piel ;1. DERECHO ;2;78
+1.Si ;1. Ovalado ;1. Circunscritos ;3. Igual Densidad (isodenso) ;0.No  ;;;;;;5. Adenopatias axilares ;;2;79
+0.No  ;;;;0.No  ;;;;;;;;3;80
+0.No  ;;;;0.No  ;;;;;;;;2;81
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;;;;;2;82
+0.No  ;;;;0.No  ;;;;1. Si ;1. Asimetria ;3. Engrosamiento de la piel ;2. IZQUIERDO ;2;83
+0.No  ;;;;0.No  ;;;;1. Si ;1. Asimetria ;;2. IZQUIERDO ;2;83
+0.No  ;;;;0.No  ;;;;1. Si ;1. Asimetria ;3. Engrosamiento de la piel ;2. IZQUIERDO ;2;83
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;0. No ;;;;2;84
+;;;;;5. Redondas o puntiformes ;;;;;;;2;85
+0.No  ;;;;0.No  ;;;;;;;;2;85
+0.No  ;;;;0.No  ;;;;;;;;2;85
+0.No  ;;;;0.No  ;;;;;;;;2;85
+0.No  ;;;;0.No  ;;;;1. Si ;1. Asimetria ;;2. IZQUIERDO ;2;86
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;1. Si ;1. Asimetria ;;2. IZQUIERDO ;2;86
+0.No  ;;;;0.No  ;;;;1. Si ;1. Asimetria ;;2. IZQUIERDO ;2;86
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;0. No ;;;;2;87
+0.No  ;;;;0.No  ;;;;;;;;2;88
+0.No  ;;;;0.No  ;;;;;;;;2;89
+1.Si ;1. Ovalado ;1. Circunscritos ;3. Igual Densidad (isodenso) ;0.No  ;;;;0. No ;;;;3;90
+0.No  ;;;;0.No  ;;;;;;;;2;91
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;;;;;2;91
+0.No  ;;;;0.No  ;;;;;;;1. DERECHO ;4A;91
+0.No  ;;;;0.No  ;;;;;;;;2;91
+0.No  ;;;;0.No  ;;;;;;;;2;91
+0.No  ;;;;0.No  ;;;;1. Si ;1. Asimetria ;3. Engrosamiento de la piel ;1. DERECHO ;2;92
+0.No  ;;;;0.No  ;;;;1. Si ;1. Asimetria ;;1. DERECHO ;2;93
+0.No  ;;;;0.No  ;;;;1. Si ;1. Asimetria ;3. Engrosamiento de la piel ;1. DERECHO ;2;93
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;;;;;2;94
+;;;;;5. Redondas o puntiformes ;;;;;;;2;94
+;;;;;5. Redondas o puntiformes ;;;;;;;2;94
+;;;;;5. Redondas o puntiformes ;;;;;;;2;94
+0.No  ;;;;0.No  ;;;;;;;;2;94
+0.No  ;;;;0.No  ;;;;;;;;1;95
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;;;;;2;95
+1.Si ;1. Ovalado ;;3. Igual Densidad (isodenso) ;0.No  ;5. Redondas o puntiformes ;;;;;;;2;96
+1.Si ;1. Ovalado ;;3. Igual Densidad (isodenso) ;0.No  ;;;;;;;;2;96
+;;;;;5. Redondas o puntiformes ;;;;;;;2;96
+1.Si ;1. Ovalado ;2. Microlobulados ;2. Baja Densidad (hipodenso;0.No  ;5. Redondas o puntiformes ;;;0. No ;;;;0;97
+1.Si ;1. Ovalado ;2. Microlobulados ;2. Baja Densidad (hipodenso;0.No  ;5. Redondas o puntiformes ;;;0. No ;;;;0;97
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;;;;;2;98
+0.No  ;;;;0.No  ;;;;0. No ;;;;2;99
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ;3. Engrosamiento de la piel ;2. IZQUIERDO ;2 ;100
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ;3. Engrosamiento de la piel ;2. IZQUIERDO ;2 ;100
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ;3. Engrosamiento de la piel ;2. IZQUIERDO ;2 ;100
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ;3. Engrosamiento de la piel ;1. DERECHO ;2 ;101
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ; ;1. DERECHO ;2 ;101
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ; ;1. DERECHO ;2 ;101
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ;3. Engrosamiento de la piel ;1. DERECHO ;2 ;101
+1.Si; ; ; ;0. No ; ; ; ;0. No ; ; ;3. BILATERAL ;2 ;102
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;102
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;102
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;102
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;102
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;102
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;103
+0. No; ; ; ;0. No ; ; ; ;0. No ; ; ;2. IZQUIERDO ;1 ;103
+0. No; ; ; ;0. No ; ; ; ;0. No ; ; ;2. IZQUIERDO ;1 ;103
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;103
+0. No; ; ; ;0. No ; ; ; ;0. No ; ; ;2. IZQUIERDO ;1 ;103
+1.Si;3.Irregular;5.Espiculados;4. Alta Densidad (hiperdenso) ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;6 ;104
+1.Si;1.Ovalado; ;3. Igual Densidad (isodenso) ;1. Si ;3. Gruesas o Pop Corn ; ; ;0. No ; ; ;1. DERECHO ;2 ;105
+1.Si;1.Ovalado; ;3. Igual Densidad (isodenso) ;1. Si ;3. Gruesas o Pop Corn ; ; ;0. No ; ; ;1. DERECHO ;2 ;105
+1.Si; ; ;3. Igual Densidad (isodenso) ;1. Si ;3. Gruesas o Pop Corn ; ; ;0. No ; ; ;1. DERECHO ;2 ;105
+1.Si; ; ;3. Igual Densidad (isodenso) ;1. Si ;3. Gruesas o Pop Corn ; ; ;0. No ; ; ;1. DERECHO ;2 ;105
+1.Si; ; ;3. Igual Densidad (isodenso) ;1. Si ;3. Gruesas o Pop Corn ; ; ;0. No ; ; ;1. DERECHO ;2 ;105
+0. No; ; ; ;1. Si ; ; ; ;0. No ; ; ;3. BILATERAL ;2 ;106
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ;1. Si ; ; ;3. BILATERAL ;2 ;106
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;107
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;107
+0. No; ; ; ;0. No ; ; ; ;1. Si ; ;3. Engrosamiento de la piel ;1. DERECHO ;2 ;108
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;109
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;1. Si ; ;3. Engrosamiento de la piel ;2. IZQUIERDO ;2 ;109
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ;3. Engrosamiento de la piel ;2. IZQUIERDO ;2 ;109
+0. No; ; ; ;0. No ; ; ; ;1. Si ; ;3. Engrosamiento de la piel ;2. IZQUIERDO ;2 ;109
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;1. Si ; ;3. Engrosamiento de la piel ;2. IZQUIERDO ;2 ;109
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ; ;2. IZQUIERDO ;2 ;109
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ;1. Si ; ;3. Engrosamiento de la piel ;1. DERECHO ;2 ;110
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ;0. No ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;111
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;112
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;112
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;112
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;112
+1.Si; ;1.Circunscritos; ;1. Si ; ; ; ;0. No ; ; ;1. DERECHO ;3 ;112
+0. No; ; ; ;0. No ; ; ; ;1. Si ; ;3. Engrosamiento de la piel ;2. IZQUIERDO ;2 ;113
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;1. Si ; ;3. Engrosamiento de la piel ;2. IZQUIERDO ;2 ;113
+0. No; ; ; ;1. Si ; ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;113
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;114
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;114
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;114
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;114
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;115
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;115
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;1. Si ; ;3. Engrosamiento de la piel ;1. DERECHO ;2 ;116
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;1. Si ; ;3. Engrosamiento de la piel ;1. DERECHO ;2 ;116
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;1. Si ; ; ;2. IZQUIERDO ;2 ;117
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;118
+0. No; ; ; ;0. No ; ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;118
+1.Si;1.Ovalado;1.Circunscritos;3. Igual Densidad (isodenso) ;1. Si ;2. Vasculares ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;119
+0. No; ; ; ;1. Si ;6. Anulares ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;119
+0. No; ; ; ;1. Si ;6. Anulares ; ; ;0. No ; ; ;2. IZQUIERDO ;2 ;119
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;1. Si ;4. Asimetria focal evolutiva ; ;2. IZQUIERDO ;4;119
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;120
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;120
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;120
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;120
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;120
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ; ;1. DERECHO ;2 ;120
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ;1. Si ; ; ;3. BILATERAL ;2 ;121
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ; ;3. BILATERAL ;2 ;121
+0. No; ; ; ;1. Si ;7. Distroficas ; ; ;1. Si ; ;3. Engrosamiento de la piel ;3. BILATERAL ;2 ;121
+0. No; ; ; ;1. Si ;2. Vasculares ; ; ;0. No ; ; ;3. BILATERAL ;2 ;121
+0. No; ; ; ;1. Si ;5. Redondas o puntiformes ; ; ;0. No ; ;;2. IZQUIERDO ;2 ;122
+0.No  ;;;;0.No  ;7. Distroficas ;;;1. Si ;;;2. IZQUIERDO ;2;122
+0.No  ;;;;0.No  ;7. Distroficas ;;;;;;;2;122
+0.No  ;;;;0.No  ;7. Distroficas ;;;;;;;2;122
+0.No  ;;;;0.No  ;7. Distroficas ;;;;;;;2;122
+0.No  ;;;;0.No  ;;;;0. No ;;;;2;123
+0.No  ;;;;0.No  ;;;;1. Si ;;;1. DERECHO ;2;124
+0.No  ;;;;0.No  ;;;;1. Si ;;;1. DERECHO ;2;124
+;;;;;;;;;;;;;125
+;;;;;5. Redondas o puntiformes ;;;1. Si ;;;1. DERECHO ;2;125
+;;;;;5. Redondas o puntiformes ;;;1. Si ;;;1. DERECHO ;2;125
+0.No  ;;;;0.No  ;;;;1. Si ;;3. Engrosamiento de la piel ;1. DERECHO ;2;125
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;;;;;2;125
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;1. Si ;;;2. IZQUIERDO ;2;126
+1.Si ;2. Redondo ;1. Circunscritos ;;;;;;;;;;2;127
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;;;;;2;128
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;;;;;2;128
+1.Si ;;;;;5. Redondas o puntiformes ;;;;;;;4A;128
+1.Si ;;;;;5. Redondas o puntiformes ;;;;;;;2;128
+0.No  ;;;;0.No  ;;;;;;;;2;129
+0.No  ;;;;0.No  ;;;;;;;;2;130
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;1. Si ;;;1. DERECHO ;2;131
+;;;;;;;;1. Si ;;;1. DERECHO ;2;131
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;;;;;2;132
+0.No  ;;;;0.No  ;1. Cutaneas ;;;;;;;2;132
+;;;;;5. Redondas o puntiformes ;;;0.No  ;;;;2;132
+;;;;;5. Redondas o puntiformes ;;;0.No  ;;;;2;132
+0.No  ;;;;0.No  ;;;;;;;;2;132
+0.No  ;;;;0.No  ;;;;0.No  ;;;;6;133
+1.Si ;1. Ovalado ;2. Microlobulados ;;;;;;0.No  ;;;;6;133
+0.No  ;;;;0.No  ;;;;0.No  ;;;;2;134
+;;;;;;;;0.No  ;;;;2;135
+;;;;;5. Redondas o puntiformes ;;;0.No  ;;;;2;135
+0.No  ;;;;0.No  ;;;;;;;;2;135
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;;;;;4B;136
+;;;;;;;;;;;;;136
+;;;;;;;;;;;;3;136
+0.No  ;;;;0.No  ;;;;;;;;3;136
+;;;;0.No  ;;;;0.No  ;;;;2;136
+0.No  ;;;;0.No  ;;;;;;;;2;136
+0.No  ;;;;0.No  ;;;;1. Si ;;;2. IZQUIERDO ;2;137
+1.Si ;;5. Espiculados ;4. Alta Densidad (hiperdenso) ;;;;;1. Si ;;;2. IZQUIERDO ;6;137
+0.No  ;;;;0.No  ;;;;1. Si ;;3. Engrosamiento de la piel ;2. IZQUIERDO ;2;137
+0.No  ;;;;0.No  ;;;;1. Si ;;3. Engrosamiento de la piel ;2. IZQUIERDO ;2;137
+0.No  ;;;;0.No  ;;;;1. Si ;;3. Engrosamiento de la piel ;2. IZQUIERDO ;2;137
+0.No  ;;;;0.No  ;;;;;;;;2;138
+;;;;;5. Redondas o puntiformes ;;;0.No  ;;;;2;139
+;;;;;;;;0.No  ;;;;2;139
+;;;;;5. Redondas o puntiformes ;;;0.No  ;;;;2;139
+0.No  ;;;;0.No  ;;;;;;;;2;139
+0.No  ;;;;0.No  ;;;;0.No  ;;;;2;140
+;;;;;;;;;;;;;141
+;;;;;5. Redondas o puntiformes ;;;0.No  ;;;;2;141
+0.No  ;;;;0.No  ;;;;;;;;2;141
+0.No  ;;;;0.No  ;;;;;;;;2;141
+0.No  ;;;;0.No  ;;;;;;;;2;141
+0.No  ;;;;0.No  ;;;;1. Si ;;;1. DERECHO ;2;142
+;;;;;5. Redondas o puntiformes ;;;0.No  ;;;;4;143
+;;;;;5. Redondas o puntiformes ;;;0.No  ;;;;0;144
+;;;;;5. Redondas o puntiformes ;;;0.No  ;;;;0;144
+1.Si ;2. Redondo ;;2. Baja Densidad (hipodenso) ;;;;;;;;;2;144
+1.Si ;2. Redondo ;;2. Baja Densidad (hipodenso) ;;;;;;;;;2;144
+1.Si ;2. Redondo ;;2. Baja Densidad (hipodenso) ;;;;;;;;;3;144
+0.No  ;;;;0.No  ;5. Redondas o puntiformes ;;;;;;;2;145
+;;;;;5. Redondas o puntiformes ;;;0.No  ;;;;2;145
+;;;;;5. Redondas o puntiformes ;;;0.No  ;;;;2;145
+0.No  ;;;;0.No  ;;;;;;;;2;145
+;;;;;5. Redondas o puntiformes ;;;0.No  ;;;;2;146
+1.Si ;2. Redondo ;;3. Igual Densidad (isodenso) ;;;;;;;;;3;147
+1. Sí (nódulo estable);2. Redondo (contornos circunscritos);1. Circunscritos;3. Isodenso;1. Sí (calcificaciones puntiformes densas);5. Redondas o puntiformes;1. Gruesas heterogéneas (en CII);3. Agrupadas (cumulo) en CII;0. No;;0. No;;2;147
+1. Sí;2. Redondo;1. Circunscritos;3. Isodenso;1. Sí;5. Redondas o puntiformes;1. Gruesas heterogéneas;3. Agrupadas;0. No;;0. No;2. IZQUIERDO;2;147
+1. Sí;2. Redondo;1. Circunscritos;3. Isodenso;1. Sí;5. Redondas o puntiformes;1. Gruesas heterogéneas;3. Agrupadas;0. No;;0. No;2. IZQUIERDO;2;147
+1. Sí;2. Redondo;1. Circunscritos;3. Isodenso;1. Sí;5. Redondas o puntiformes;1. Gruesas heterogéneas;3. Agrupadas;0. No;;0. No;2. IZQUIERDO;4B;147
+;;;;;;;;;;;;;147
+;;;;;;;;;;;;;147
+0. No;;;;1. Sí;5. Redondas o puntiformes;0. No;1. Difusas;0. No;;1. Retracción de la piel, 3. Engrosamiento de la piel, 5. Adenopatías axilares;2. IZQUIERDO;2;147
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;2. IZQUIERDO;2;148
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;2. IZQUIERDO;2;149
+0. No;;;;0. No;;;;0. No;;;1. DERECHO;;150
+1. Si;;;;1. Si;5. Redondas o puntiformes;;;1. Si;;;3. BILATERAL;2;150
+1. Si;;;;1. Si;5. Redondas o puntiformes;;;1. Si;;;3. BILATERAL;2;151
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares;;;0. No;;;3. BILATERAL;2;151
+1. Si;;;;1. Si;2. Vasculares;;;0. No;;;3. BILATERAL;2;151
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares;;;0. No;;;3. BILATERAL;2;152
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;152
+1. Si;;1. Circunscritos;3. Igual Densidad (isodenso);0. No;5. Redondas o puntiformes;;;1. Si;1. Asimetria;3. Engrosamiento de la piel;1. DERECHO;2;152
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;153
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;3. BILATERAL;2;154
+0. No;;;;0. No;;;;0. No;;;1. DERECHO;;154
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;;2;154
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;1;155
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;2;155
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;155
+0. No;;;;0. No;2. Vasculares, 5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;2. IZQUIERDO;;155
+1. Si;1. Ovalado;1. Circunscritos;;0. No;2. Vasculares, 5. Redondas o puntiformes;;;0. No;;3. Engrosamiento de la piel;3. BILATERAL;;155
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;156
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;156
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;157
+1. Si;2. Redondo;;;1. Si;;;;0. No;;;3. BILATERAL;2;157
+1. Si;1. Ovalado;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares;;;0. No;;;3. BILATERAL;0;157
+0. No;;;;0. No;;;;0. No;;;1. DERECHO;;157
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;;2;158
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;1;159
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;3. BILATERAL;;159
+0. No;;;;0. No;5. Redondas o puntiformes;;3. Agrupadas (cumulo);1. Si;;3. Engrosamiento de la piel;1. DERECHO;2;160
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares;;;0. No;;;1. DERECHO;2;161
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares;;;0. No;;;1. DERECHO;2;162
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;3. BILATERAL;2;162
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;;;;162
+0. No;;;;0. No;2. Vasculares;;;1. Si;;;2. IZQUIERDO;2;163
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;;2. IZQUIERDO;;164
+1. Si;2. Redondo;1. Circunscritos;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;3. BILATERAL;2;164
+0. No;;;;0. No;;;;0. No;;;1. DERECHO;;164
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;1. DERECHO;2;165
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;166
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;1. DERECHO;2;166
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;166
+1. Si;2. Redondo;;;1. Si;;;;0. No;;;3. BILATERAL;2;166
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares;;5. Lineal;0. No;;;;2;166
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;5. Lineal;0. No;;;;2;166
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares;;5. Lineal;0. No;;;3. BILATERAL;2;167
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;1;167
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;167
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;1. DERECHO;2;168
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;169
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares;;;0. No;;;3. BILATERAL;2;169
+0. No;;;;0. No;;;;0. No;;;;;169
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares;;;0. No;;;;2;170
+0. No;;;;0. No;;;;1. Si;;3. Engrosamiento de la piel;;2;171
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares, 5. Redondas o puntiformes;;;0. No;;;2. IZQUIERDO;2;171
+1. Si;;;;1. Si;2. Vasculares, 5. Redondas o puntiformes;;;0. No;;;;2;171
+1. Si;;;;1. Si;5. Redondas o puntiformes;;;0. No;;;;2;171
+0. No;;;;0. No;;;;0. No;;;1. DERECHO;;171
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;3. BILATERAL;2;171
+1. Si;;1. Circunscritos;3. Igual Densidad (isodenso);0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;2. IZQUIERDO;2;172
+1. Si;;1. Circunscritos;3. Igual Densidad (isodenso);0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;2. IZQUIERDO;2;172
+1. Si;2. Redondo;1. Circunscritos;3. Igual Densidad (isodenso);0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;2. IZQUIERDO;2;172
+1. Si;;;3. Igual Densidad (isodenso);0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;1. DERECHO;2;172
+1. Si;;;;1. Si;;;;0. No;;;1. DERECHO;2;172
+0. No;;;;0. No;5. Redondas o puntiformes;;;0. No;;;1. DERECHO;;173
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;;1. DERECHO;2;174
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;174
+1. Si;;;;1. Si;;;;0. No;;;3. BILATERAL;2;174
+0. No;;;;0. No;7. Distroficas;;;1. Si;;;3. BILATERAL;;174
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;2;174
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;175
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;2;176
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;2;176
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;2;176
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;176
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;176
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;176
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;;2;177
+1. Si;1. Ovalado;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;177
+1. Si;1. Ovalado;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;177
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;1. Asimetria;3. Engrosamiento de la piel;3. BILATERAL;;177
+1. Si;;;;1. Si;;;;0. No;;3. Engrosamiento de la piel;1. DERECHO;2;177
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;;;2;178
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;1;179
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;1;179
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;180
+1. Si;2. Redondo;1. Circunscritos;3. Igual Densidad (isodenso);0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;2. IZQUIERDO;;180
+1. Si;2. Redondo;1. Circunscritos;3. Igual Densidad (isodenso);0. No;5. Redondas o puntiformes;;;0. No;;3. Engrosamiento de la piel;1. DERECHO;3;180
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;3. BILATERAL;2;181
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;3. BILATERAL;2;181
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;182
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;182
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;183
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;3. Engrosamiento de la piel;1. DERECHO;4;183
+1. Si;1. Ovalado;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;184
+1. Si;1. Ovalado;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;1. DERECHO;2;185
+1. Si;1. Ovalado;1. Circunscritos;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;1. DERECHO;2;186
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;186
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;186
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;187
+0. No;;;;0. No;5. Redondas o puntiformes;;;0. No;;3. Engrosamiento de la piel;;2;187
+1. Si;1. Ovalado;1. Circunscritos;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;0;187
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;1. DERECHO;;188
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;2;189
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;2;190
+1. Si;;1. Circunscritos;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;;3;191
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;1. DERECHO;2;191
+1. Si;1. Ovalado;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;1. DERECHO;2;192
+1. Si;1. Ovalado;;3. Igual Densidad (isodenso);0. No;5. Redondas o puntiformes;;;1. Si;;;1. DERECHO;2;193
+1. Si;;1. Circunscritos;2. Baja Densidad (hipodenso);0. No;3. Gruesas o Pop Corn;;;1. Si;;;1. DERECHO;2;193
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;3. Gruesas o Pop Corn, 5. Redondas o puntiformes;;;0. No;;;;2;193
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares, 5. Redondas o puntiformes;;;0. No;;;;2;193
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;;2;194
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;194
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;195
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;195
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes, 7. Distroficas;;;0. No;;;1. DERECHO;2;195
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;195
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;2;196
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;2. Regionales;0. No;;;;2;197
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;;1. DERECHO;2;198
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;2. Regionales;0. No;;;;0;198
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;2. Regionales;0. No;;;;2;198
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;198
+1. Si;1. Ovalado;1. Circunscritos;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;2. IZQUIERDO;0;198
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;1. DERECHO;2;198
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;199
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;200
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;;1. DERECHO;2;200
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;200
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;200
+0. No;;;;0. No;;;;0. No;;;1. DERECHO;;200
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;5. Lineal;0. No;;;3. BILATERAL;2;200
+0. No;;;;0. No;;;;1. Si;;3. Engrosamiento de la piel;;;201
+0. No;;;;0. No;2. Vasculares, 5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;1. DERECHO;2;202
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares;;;0. No;;;3. BILATERAL;2;203
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares;;;0. No;;;3. BILATERAL;2;204
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;204
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;3. BILATERAL;;204
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares;;;0. No;;;1. DERECHO;2;205
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;205
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;;;2;206
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;2. IZQUIERDO;2;207
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;208
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;208
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares, 5. Redondas o puntiformes;;;0. No;;;;2;208
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares, 5. Redondas o puntiformes;;;0. No;;;;2;208
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;;;;209
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;;;2;209
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;;;2;210
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;2;210
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;1;210
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;2;211
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;211
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;211
+1. Si;1. Ovalado;;2. Baja Densidad (hipodenso);1. Si;2. Vasculares, 5. Redondas o puntiformes;;;0. No;;;3. BILATERAL;2;211
+1. Si;1. Ovalado;;3. Igual Densidad (isodenso);0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;1. DERECHO;2;211
+0. No;;;;0. No;2. Vasculares, 5. Redondas o puntiformes;;;0. No;;;2. IZQUIERDO;4;212
+1. Si;2. Redondo;;4. Alta Densidad (hiperdenso);1. Si;;;;0. No;;;1. DERECHO;2;212
+0. No;;;;0. No;;;;0. No;;;1. DERECHO;;212
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;1. DERECHO;2;212
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;2;213
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;214
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;3. BILATERAL;;215
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);0. No;5. Redondas o puntiformes;;;0. No;;;1. DERECHO;2;215
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;3. Gruesas o Pop Corn;;;0. No;;;;2;216
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;6. Anulares;;;0. No;;;;2;217
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;3. BILATERAL;;217
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;3. BILATERAL;2;217
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;1;218
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;2. IZQUIERDO;2;219
+1. Si;2. Redondo;;;1. Si;;;;0. No;;;3. BILATERAL;2;220
+1. Si;2. Redondo;;;1. Si;5. Redondas o puntiformes;;;0. No;;;3. BILATERAL;4A;221
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;;2;221
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;1. DERECHO;2;221
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;3. BILATERAL;2;222
+1. Si;;;2. Baja Densidad (hipodenso);0. No;5. Redondas o puntiformes;;;1. Si;;;1. DERECHO;2;223
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;1. DERECHO;2;223
+1. Si;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;1. DERECHO;;223
+1. Si;1. Ovalado;1. Circunscritos;2. Baja Densidad (hipodenso);1. Si;7. Distroficas;;;0. No;;;1. DERECHO;2;223
+1. Si;1. Ovalado;2. Microlobulados;3. Igual Densidad (isodenso);1. Si;;;;0. No;;;1. DERECHO;0;224
+0. No;;;2. Baja Densidad (hipodenso);0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;2. IZQUIERDO;2;224
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;3. BILATERAL;2;224
+1. Si;1. Ovalado;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;3. BILATERAL;;224
+1. Si;;;;1. Si;;;;0. No;;;3. BILATERAL;2;224
+1. Si;2. Redondo;;;1. Si;;;;0. No;;;3. BILATERAL;2;224
+1. Si;;;;1. Si;;;;0. No;;;3. BILATERAL;2;225
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;1. DERECHO;2;225
+1. Si;;;;0. No;5. Redondas o puntiformes;;;1. Si;;3. Engrosamiento de la piel;1. DERECHO;;225
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;2;226
+0. No;;;;0. No;5. Redondas o puntiformes;;;1. Si;;;;2;227
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;2;228
+1. Si;;;2. Baja Densidad (hipodenso);1. Si;;;;0. No;;;;2;228
+1. Si;2. Redondo;;2. Baja Densidad (hipodenso);1. Si;5. Redondas o puntiformes;;;0. No;;;3. BILATERAL;2;228
