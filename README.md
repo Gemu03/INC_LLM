@@ -12,10 +12,15 @@ Antes de ejecutar cualquiera de las aplicaciones, asegúrate de tener las siguie
 Python v12 o superior con las siguientes librerías:
 
 ```bash
-pip install fastapi uvicorn python-dotenv openai pandas pydantic requests
+pip install -r requirements.txt
 ```
 
 Si utilizas `local.py`, asegúrate de tener **Ollama** instalado y ejecutándose en tu máquina. Puedes descargarlo desde [Ollama](https://ollama.com/).
+
+> Para ejecutar Ollama con el modelo Phi-4, utiliza el siguiente comando:
+```bash
+ollama serve --model phi4 
+```
 
 ## Configuración
 
@@ -41,7 +46,17 @@ uvicorn app:app --reload
 
 Esto iniciará un servidor en `http://127.0.0.1:8000`.
 
-### 2. Ejecutar con Ollama (`local.py`)
+### 2. Ejecutar con OpenAI (`appd.py`)
+
+Para iniciar el servidor FastAPI con DeepSeek:
+
+```bash
+uvicorn appd:app --reload
+```
+
+Esto iniciará un servidor en `http://127.0.0.1:8000`.
+
+### 3. Ejecutar con Ollama (`local.py`)
 
 Para usar el modelo Phi-4 de Ollama en local:
 
@@ -62,6 +77,7 @@ POST /process-medical-csv/
 **Parámetros:**
 - `file`: Archivo CSV (debe contener columnas `ID_DOCUMENTO`, `PRESTACION`, `EDAD_EN_FECHA_ESTUDIO`, `ESTUDIO`).
 - `search_terms`: Términos clave para buscar en las notas médicas.
+>search_terms: Por defecto está en "str".
 
 Ejemplo de uso con `cURL`:
 

@@ -12,7 +12,7 @@ app = FastAPI()
 # Carga las variables de entorno (si las usas) o define directamente la clave y base_url
 load_dotenv()
 # En este ejemplo se define directamente la API key de DeepSeek
-client = OpenAI(api_key="sk-843e1c4ca03f4c14b72c4e31bee09d3e", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="sk-843e1c4ca03f4c14b72c4e31bee09d3e", base_url="https://api.deepseek.com") # ejemplo api key
 
 # Modelo de salida estructurado
 class MedicalNoteExtraction(BaseModel):
