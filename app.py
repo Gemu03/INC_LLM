@@ -13,8 +13,8 @@ app = FastAPI()
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
-class MedicalNoteExtraction(BaseModel):
-    id_paciente: str
+class MedicalNoteExtraction(BaseModel): 
+    ra_paciente: str
     prestacion: str
     nodulos: str  # 0(No), 1(Si)
     morfologia_nodulos: str  # 1(Ovalado), 2(Redondo), 3(Irregular)
@@ -43,7 +43,7 @@ async def process_medical_csv(
 
     content = await file.read()
     file_binary = BytesIO(content)
-    df = pd.read_csv(file_binary, sep=';', encoding='utf-8', nrows=700)
+    df = pd.read_csv(file_binary, sep=';', encoding='utf-8', nrows=10)
     print("DF CARGADO")
     content= '''You are an expert at extracting structured data from medical notes. Follow the same parameters: -Nodulos: 0(No) 1(Si) 
     -Morfologia de los nodulos:1(Ovalado) 2(Redondo) 3(Irregular) -Margenes de los nodulos: 1(Circunscritos), 2(Microlobulados), 3(Indistintos o mal definidos), 4(Obscurecidos), 5(Espiculados) 
@@ -70,8 +70,8 @@ async def process_medical_csv(
     structured_data = []
 
     for index, row in df.iterrows():
+        ra_paciente = row['RA_PACIENTE']
         presentacion = row['PRESTACION']
-        id_paciente = row['ID_DOCUMENTO']
         edad = row['EDAD_EN_FECHA_ESTUDIO']
         notes = row['ESTUDIO']  
         
@@ -79,7 +79,7 @@ async def process_medical_csv(
             model="gpt-4o-mini-2024-07-18",
             messages=[
                 {"role": "system", "content": content },
-                {"role": "user", "content": f"Add ID_PACIENTE: {id_paciente}, PRESTACION: {presentacion}, EDAD{edad} to each corresponding register. Extract the following information from the notes: {notes}. Look for terms like {search_terms}."}
+                {"role": "user", "content": f"Add RA_PACIENTE: {ra_paciente}, PRESTACION: {presentacion}, EDAD{edad} to each corresponding register. Extract the following information from the notes: {notes}. Look for terms like {search_terms}."}
             ],
             response_format=MedicalNoteExtraction,
         )
