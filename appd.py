@@ -16,7 +16,7 @@ client = OpenAI(api_key="sk-843e1c4ca03f4c14b72c4e31bee09d3e", base_url="https:/
 
 # Modelo de salida estructurado
 class MedicalNoteExtraction(BaseModel):
-    id_paciente: str
+    ra_paciente: str
     prestacion: str
     nodulos: str               # 0(No), 1(Si)
     morfologia_nodulos: str    # 1(Ovalado), 2(Redondo), 3(Irregular)
@@ -79,13 +79,13 @@ Output format example: nodulos=0, morfologia_nodulos=NULL, margenes_nodulos=NULL
     structured_data = []
 
     for index, row in df.iterrows():
+        ra_paciente = row['RA_PACIENTE']
         prestacion = row['PRESTACION']
-        id_paciente = row['ID_DOCUMENTO']
         edad = row['EDAD_EN_FECHA_ESTUDIO']
         notes = row['ESTUDIO']
 
         user_prompt = (
-            f"Add ID_PACIENTE: {id_paciente}, PRESTACION: {prestacion}, EDAD: {edad} to the corresponding register. "
+            f"Add RA_PACIENTE: {ra_paciente}, PRESTACION: {prestacion}, EDAD: {edad} to the corresponding register. "
             f"Extract the following information from the notes: {notes}. Look for terms like {search_terms}."
         )
 
