@@ -1,157 +1,158 @@
-# Extracción de Datos de Notas Médicas
+# Medical Notes Data Extraction with LLMs
 
-Este repositorio contiene dos aplicaciones basadas en FastAPI para extraer información estructurada de notas médicas en archivos CSV. 
+This repository contains FastAPI applications that extract **structured information from medical notes** (CSV files) using Large Language Models (LLMs). It benchmarks several models — OpenAI, DeepSeek, and a locally hosted model (Phi-4 via Ollama) — for clinical information extraction from mammography reports.
 
-- `app.py`: Utiliza la API de OpenAI para el procesamiento de texto.
-- `local.py`: Utiliza un modelo alojado localmente a través de Ollama.
+- `app.py`: Uses the **OpenAI API** for text processing.
+- `appd.py`: Uses **DeepSeek** for text processing.
+- `local.py`: Uses a **locally hosted model** through Ollama (Phi-4).
 
-## Requisitos
+## Requirements
 
-Antes de ejecutar cualquiera de las aplicaciones, asegúrate de tener las siguientes dependencias instaladas:
+Before running any of the applications, make sure you have the dependencies installed.
 
-Python v12 o superior con las siguientes librerías:
+Python 3.12 or higher with the following libraries:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Si utilizas `local.py`, asegúrate de tener **Ollama** instalado y ejecutándose en tu máquina. Puedes descargarlo desde [Ollama](https://ollama.com/).
+If you use `local.py`, make sure **Ollama** is installed and running on your machine. You can download it from [Ollama](https://ollama.com/).
 
-> Para ejecutar Ollama con el modelo Phi-4, utiliza el siguiente comando:
+> To run Ollama with the Phi-4 model, use the following command:
 ```bash
-ollama serve --model phi4 
+ollama serve --model phi4
 ```
 
-## Configuración
+## Configuration
 
-Debes crear un archivo `.env` en el directorio raíz del proyecto con las siguientes variables:
+Create a `.env` file in the project root with the following variables:
 
 ```ini
-# Para app.py (requiere clave de API de OpenAI)
-OPENAI_API_KEY=tu_clave_de_api
+# For app.py (requires an OpenAI API key)
+OPENAI_API_KEY=your_api_key
 
-# Para local.py (requiere servidor Ollama)
+# For local.py (requires a running Ollama server)
 OLLAMA_API_URL=http://localhost:11434/api
 ```
 
-## Uso
+## Usage
 
-### 1. Ejecutar con OpenAI (`app.py`)
+### 1. Run with OpenAI (`app.py`)
 
-Para iniciar el servidor FastAPI con OpenAI:
+Start the FastAPI server with OpenAI:
 
 ```bash
 uvicorn app:app --reload
 ```
 
-Esto iniciará un servidor en `http://127.0.0.1:8000`.
+This starts a server at `http://127.0.0.1:8000`.
 
-### 2. Ejecutar con OpenAI (`appd.py`)
+### 2. Run with DeepSeek (`appd.py`)
 
-Para iniciar el servidor FastAPI con DeepSeek:
+Start the FastAPI server with DeepSeek:
 
 ```bash
 uvicorn appd:app --reload
 ```
 
-Esto iniciará un servidor en `http://127.0.0.1:8000`.
+This starts a server at `http://127.0.0.1:8000`.
 
-### 3. Ejecutar con Ollama (`local.py`)
+### 3. Run with Ollama (`local.py`)
 
-Para usar el modelo Phi-4 de Ollama en local:
+To use the local Ollama Phi-4 model:
 
 ```bash
 uvicorn local:app --reload
 ```
 
-Asegúrate de que **Ollama está corriendo** en tu máquina antes de ejecutar este comando.
+Make sure **Ollama is running** on your machine before executing this command.
 
-## Uso de la API
+## API Usage
 
-Ambas aplicaciones exponen un endpoint para procesar archivos CSV:
+All applications expose an endpoint to process CSV files:
 
 ```
 POST /process-medical-csv/
 ```
 
-**Parámetros:**
-- `file`: Archivo CSV (debe contener columnas `ID_DOCUMENTO`, `PRESTACION`, `EDAD_EN_FECHA_ESTUDIO`, `ESTUDIO`).
-- `search_terms`: Términos clave para buscar en las notas médicas.
->search_terms: Por defecto está en "str".
+**Parameters:**
+- `file`: CSV file (must contain the columns `ID_DOCUMENTO`, `PRESTACION`, `EDAD_EN_FECHA_ESTUDIO`, `ESTUDIO`).
+- `search_terms`: Key terms to search for within the medical notes.
+> `search_terms` defaults to type `str`.
 
-Ejemplo de uso con `cURL`:
+Example with `cURL`:
 
 ```bash
 curl -X 'POST' \
   'http://127.0.0.1:8000/process-medical-csv/' \
   -H 'accept: application/json' \
   -H 'Content-Type: multipart/form-data' \
-  -F 'file=@archivo.csv' \
-  -F 'search_terms="nodulos, calcificaciones"'
+  -F 'file=@file.csv' \
+  -F 'search_terms="nodules, calcifications"'
 ```
 
-El resultado es un JSON con los datos extraídos.
+The result is a JSON object with the extracted data.
 
-Ejemplo de uso con `uvicorn local:app --reload`
+Example using `uvicorn local:app --reload`:
 
-- En la dirección **127.0.0.1:8000/docs** se encontrará la siguiente interfaz:
-![alt text](/images/uvicorn.png)
+- The interactive interface is available at **127.0.0.1:8000/docs**:
+![docs interface](/images/uvicorn.png)
 
-- Se debe seleccior el endpoint POST de **/process-medical-csv/** y dar en la opción de **Try out**:
-![alt text](/images/endpoint.png)
+- Select the **POST /process-medical-csv/** endpoint and click **Try out**:
+![endpoint](/images/endpoint.png)
 
-- Se de debe subir el archivo en csv con el formato solicitado y dar en execute:
-![alt text](/images/upload%20file.png)
+- Upload the CSV file in the requested format and click **Execute**:
+![upload file](/images/upload%20file.png)
 
 ---
 
-## Resultados
+## Results
 
-- **Precisión general (BIRADS):**
-La clasificación BIRADS es crítica para determinar el manejo clínico de los hallazgos mamográficos:
+- **Overall accuracy (BIRADS):**
+BIRADS classification is critical to determine the clinical management of mammographic findings:
 
-![Precisión en clasificación BIRADS](/images/Imagen1.png)
+![BIRADS classification accuracy](/images/Imagen1.png)
 
- El modelo DeepSeek muestra la mayor precisión en la clasificación BIRADS (98.42%), seguido por Local (Phi4) (97.56%) y OpenAI (93.56%).
+The DeepSeek model shows the highest accuracy in BIRADS classification (98.42%), followed by Local (Phi-4) (97.56%) and OpenAI (93.56%).
 
-- **Tasa de alucinaciones (Menor es mejor):**
-Las alucinaciones representan casos donde el modelo genera información incorrecta o no presente en la referencia:
+- **Hallucination rate (lower is better):**
+Hallucinations represent cases where the model generates incorrect information or content not present in the reference:
 
-![Tasa de alucinaciones](/images/Imagen2.png)
+![Hallucination rate](/images/Imagen2.png)
 
-DeepSeek muestra la menor tasa de alucinaciones, seguido por OpenAI y Local (Phi4). Estos resultados indican que los modelos bajan la tasa de alucinaciones conforme aumenta su tamaño y complejidad.
+DeepSeek shows the lowest hallucination rate, followed by OpenAI and Local (Phi-4). These results indicate that the hallucination rate decreases as model size and complexity increase.
 
-- **Precisión por campo específico:**
-Analizamos la precisión de cada modelo en la identificación de hallazgos radiológicos específicos, comparando todos los campos disponibles en los informes.
+- **Per-field accuracy:**
+We analyzed each model's accuracy in identifying specific radiological findings, comparing all fields available in the reports.
 
+#### Accuracy comparison between LLMs on clinical report transcription
 
-#### Comparativa de precisión entre modelos LLM en transcripción de historias clínicas
-
-| **Campo clínico**                            | **DeepSeek** | **OpenAI** | **Phi4** |
+| **Clinical field**                          | **DeepSeek** | **OpenAI** | **Phi4** |
 |---------------------------------------------|--------------|------------|----------|
-| Nódulos                                     | 81.36%       | 73.29%     | 33.37%   |
-| Presencia Microcalcificaciones              | 70.25%       | 77.59%     | 29.68%   |
-| Calcificaciones típicamente benignas        | 89.18%       | 74.91%     | 20.14%   |
-| Calcificaciones morfología sospechosa       | 58.57%       | 52.58%     | 16.27%   |
-| Distribución de las calcificaciones         | 81.80%       | 71.94%     | 28.93%   |
-| Presencia de asimetrías                     | 75.50%       | 79.25%     | 43.80%   |
-| Tipo de asimetría                           | 70.25%       | 22.03%     | 3.04%    |
-| Hallazgos asociados                         | 74.34%       | 67.19%     | 40.41%   |
-| Lateralidad hallazgo                        | 72.13%       | 63.55%     | 26.48%   |
+| Nodules                                     | 81.36%       | 73.29%     | 33.37%   |
+| Presence of microcalcifications             | 70.25%       | 77.59%     | 29.68%   |
+| Typically benign calcifications             | 89.18%       | 74.91%     | 20.14%   |
+| Suspicious-morphology calcifications        | 58.57%       | 52.58%     | 16.27%   |
+| Calcification distribution                  | 81.80%       | 71.94%     | 28.93%   |
+| Presence of asymmetries                     | 75.50%       | 79.25%     | 43.80%   |
+| Asymmetry type                              | 70.25%       | 22.03%     | 3.04%    |
+| Associated findings                         | 74.34%       | 67.19%     | 40.41%   |
+| Finding laterality                          | 72.13%       | 63.55%     | 26.48%   |
 | BIRADS                                      | 94.65%       | 92.56%     | 90.65%   |
 
+- **Pricing:**
+LLM pricing varies by provider and by the specific characteristics of each model. The prices for each model are shown below:
 
-- **Precios:**
-Los precios de los modelos LLM varían según el proveedor y las características específicas de cada modelo. A continuación, se presentan los precios para cada modelo:
+![Pricing](/images/Imagen3.png)
 
-![Tasa de alucinaciones](/images/Imagen3.png)
+Additional candidate models are also included:
 
-Adicionalmente también se adjuntan otros posibles modelos a usar:
+![Additional models](/images/Imagen4.png)
 
-![Tasa de alucinaciones](/images/Imagen4.png)
+## Tech Stack
 
+Python · FastAPI · OpenAI API · DeepSeek · Ollama (Phi-4) · Uvicorn
 
+## Contact
 
-## Contacto
-
-Si tienes preguntas o sugerencias, abre un issue en este repositorio.
+If you have questions or suggestions, open an issue in this repository.
