@@ -6,6 +6,10 @@ This repository contains FastAPI applications that extract **structured informat
 - `appd.py`: Uses **DeepSeek** for text processing.
 - `local.py`: Uses a **locally hosted model** through Ollama (Phi-4).
 
+<p align="center">
+  <img src="docs/screenshot.webp" alt="Medical notes LLM extraction — web interface" width="600" />
+</p>
+
 ## Requirements
 
 Before running any of the applications, make sure you have the dependencies installed.
